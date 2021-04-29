@@ -12,8 +12,8 @@
                 .range([580, 20]);
 
             let answerline = d3.line()
-            	.x(d => xScale(+d.index))
-            	.y(d => yScale(+d.Agriculture))
+            	.x(d => xScale(d.index))
+            	.y(d => yScale(d.Agriculture))
         
 			d3.select('#answer1')
 			    .append('path')
