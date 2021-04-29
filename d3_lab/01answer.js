@@ -3,11 +3,11 @@
 
             console.log(data);
         
-            const xScale = d3.scaleLinear()
+            let xScale = d3.scaleLinear()
                 .domain(d3.extent(data, d => +d.index))
                 .range([20, 1180]);
             
-            const yScale = d3.scaleLinear()
+            let yScale = d3.scaleLinear()
                 .domain(d3.extent(data, d => +d.Agriculture))
                 .range([580, 20]);
 
