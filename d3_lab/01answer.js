@@ -19,11 +19,8 @@ d3.csv('ue_industry.csv', data => {
         
 			d3.select('#answer1')
 			    .append('path')
-			    .attr('d', line(data))
+			    .attr('d', answerline(data))
 			    .attr('stroke', '#474af')
         });
 
-    d3.select('#answer1')
-        // append more elements here
 
-});
