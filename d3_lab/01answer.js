@@ -1,7 +1,5 @@
     // Define your scales and generator here.
       d3.csv('ue_industry.csv', data => {
-
-            console.log(data);
         
             let xScale = d3.scaleLinear()
                 .domain(d3.extent(data, d => +d.index))
