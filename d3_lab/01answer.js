@@ -16,7 +16,7 @@
 			d3.select('#answer1')
 			    .append('path')
 			    .attr('d', answerline(data))
-			    .attr('stroke', '#474af')
+			    .attr('stroke', '#2e2928')
         });
 
 
